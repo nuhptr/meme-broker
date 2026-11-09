@@ -1,0 +1,13 @@
+@layer components {
+    .badge {
+        @apply font-medium mt-2 h-fit py-1 flex items-center gap-1;
+    }
+
+    .badge-up {
+        @apply bg-green-600/20! text-green-600!;
+    }
+
+    .badge-down {
+        @apply bg-red-500/20! text-red-500!;
+    }
+}
